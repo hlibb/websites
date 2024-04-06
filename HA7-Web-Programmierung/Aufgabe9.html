@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 9</title>
+</head>
+<body>
+
+<form method="post" action="/cgi-bin/kunde.pl">
+    <p><kbd>S</kbd>traße, Hausnr.:<br>
+        <input type="text" name="street" style="width: 300px" tabindex="2" accesskey="s">
+    </p>
+    <p><kbd>L</kbd>and <kbd>P</kbd>LZ<kbd>0</kbd>rt:<br>
+        <input type="text" name="country" style="width:20px;" tabindex="3" accesskey="1" value="D">
+        <input type="text" name="plz" style="width: 40px;" tabindex="4" accesskey="p" placeholder="12345">
+        <input type="text" name="city" style="width:224px;" tabindex="5" accesskey="o">
+    </p>
+    <p><kbd></kbd>-Mail:<br>
+        <input type="text" name="mail" style="width: 300px" tabindex="1" accesskey="e" autofocus>
+    </p>
+    <p><kbd>T</kbd>elefon:<br>
+        <input type="text" name="phone" style="width: 300px" tabindex="6" accesskey="t">
+    </p>
+    <p><kbd>M</kbd>obiltelefon:<br>
+        <input type="text" name="mobile" style="width: 300px" tabindex="7" accesskey="m">
+    </p>
+    <p><kbd>B</kbd>LZ / <kbd>K</kbd>ontonummer:<br>
+        <input type="text" name="blz" style="width: 60px;" tabindex="8" accesskey="b" placeholder="1001001010">
+        <input type="text" name="kto" style="width:232px;" tabindex="9" accesskey="k" autocomplete="off"></p>
+</form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+6. Beschreiben Sie den Unterschied zwischen:
+
+-> Formulardaten werden auf Client validiert?
+ Kontrolle mit Hilfe eines JavaScript´s
+
+-> Formulardaten werden auf dem Server validiert?
+ Serverseitige Kontrolle

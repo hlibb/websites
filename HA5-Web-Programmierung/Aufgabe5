@@ -1,0 +1,9 @@
+5. Was ist der Unterschied zwischen den einzelnen Strukturen?
+
+Lineare Hyperlink-Struktur: Hyperlinks sind hintereinander angeordnet, sodass ein Nutzer von einem Link zum nächsten navigiert, ohne zurückzukehren.
+
+Sternförmige Hyperlink-Struktur: Alle Links sind mit einem zentralen Punkt verbunden. Alle Wege führen zurück zum Zentrum.
+
+Baumförmige Hyperlink-Struktur: Hyperlinks sind hierarchisch organisiert, ähnlich wie die Verzweigungen eines Baumes. Es gibt einen Hauptlink, von dem aus verschiedene Unterlinks abzweigen.
+
+Netzwerk-Hyperlink-Struktur: Hyperlinks sind miteinander verbunden, wobei viele verschiedene Pfade zwischen den Seiten existieren können, ohne eine zentrale Anordnung.

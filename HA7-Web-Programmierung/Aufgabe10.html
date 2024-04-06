@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Formular</title>
+</head>
+<body>
+<form action="submit.php" method="post">
+    <p>
+        <label>Name: <br>
+            <input type="text" name="name"></label>
+    </p>
+    <p>
+        <label>Vorname: <br>
+            <input type="text" name="vorname"></label>
+    </p>
+    <p>
+        <label>Hobby: <br>
+            <select name="hobby" multiple>
+                <option value="Sport">Sport</option>
+                <option value="Lesen">Lesen</option>
+                <option value="Musik">Musik</option>
+                <option value="Reisen">Reisen</option>
+                <option value="Kochen">Kochen</option>
+            </select>
+        </label>
+    </p>
+    <p>
+        <label>Telefonnummer: <br>
+            <input type="tel" name="telefon"></label>
+    </p>
+    <p>
+        <label>Kommentar: <br>
+            <textarea name="comment" rows="4" cols="50"></textarea></label>
+    </p>
+    <input type="submit" value="Absenden">
+</form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 5</title>
+  </head>
+  <body>
+  <form action="test.php" method="post">
+      <p>Unterkunft:<br>
+          <input type="radio" name="uk" value="EZ BR" checked> EZ Frühstück <br>
+          <input type="radio" name="uk" value="DZ BR"> DZ Frühstück <br>
+          <input type="radio" name="uk" value="DZ HP"> DZ Halbpension <br>
+          <input type="radio" name="uk" value="DZ VP"> EZ Vollpension <br>
+      </p>
+      <p>Optionen:<br>
+          <input type="checkbox" name="opt[]" value="parken"> Parkplatz <br>
+          <input type="checkbox" name="opt[]" value="internet"> Internet <br>
+          <input type="checkbox" name="opt[]" value="sauna"> Sauna <br>
+          <input type="checkbox" name="opt[]" value="vegkost"> Vegetarisch <br>
+          <input type="checkbox" name="opt[]" value="raucher"> Raucher <br>
+      </p>
+
+      <p>Internet Vermerk: <br>
+          <input type="checkbox" name="tourist"> Tourist<br>
+      </p>
+
+      <input type="submit" value="senden">
+  </form>
+  </body>
+</html>

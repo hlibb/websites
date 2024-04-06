@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 5</title>
+</head>
+<body>
+<canvas id="info" width="400" height="600">
+
+</canvas>
+<script>
+    var infoPic = document.getElementById("info");
+    if (infoPic.getContext)
+    {
+        infoPic = infoPic.getContext('2d');
+        infoPic.fillStyle = "#AAAAAA";
+        infoPic.fillRect(0, 0, 140, 360);
+        infoPic.fillStyle = "#FF8800";
+        infoPic.fillRect(20, 130, 100, 200);
+        infoPic.fillstyle = "#880088";
+        infoPic.beginPath();
+        infoPic.arc(70, 70, 50, 0, 2 * Math.PI, true);
+        infoPic.fill();
+        infoPic.fillstyle = "#880088";
+        infoPic.font = 'bold 14px Arial,sans-serif';
+        infoPic.fillText("NFORMATION", 22, 325);
+    }
+</script>
+</body>
+</html>
