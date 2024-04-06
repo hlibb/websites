@@ -1,0 +1,3 @@
+div.weather strong:first-child {
+    color: red;
+}

@@ -1,0 +1,19 @@
+img {
+    margin: 40px;
+}
+
+#SchattenBild1 {
+    box-shadow: 10px 20px 30px orange;
+}
+
+#SchattenBild2 {
+    box-shadow: 10px 10px 10px orange;
+}
+
+#SchattenBild3 {
+    box-shadow: 50px -20px 30px green;
+}
+
+#SchattenBild4 {
+    box-shadow: 10px 20px 30px green, -10px -20px 30px orange;
+}

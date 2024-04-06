@@ -1,0 +1,7 @@
+#BoxA {
+    width: 10em;
+    height: 10em;
+    float: left;
+    background-image: linear-gradient(to bottom left, yellow, red);
+    margin: 20px;
+}

@@ -1,0 +1,17 @@
+#TextSchatten1 {
+    text-shadow: 10px 11px 2px red;
+}
+
+#TextSchatten2 {
+    text-shadow: 10px 11px 30px red;
+}
+
+#TextSchatten3 {
+    text-shadow: 10px 11px 70px orange;
+}
+
+#TextSchatten4 {
+    text-shadow: 10px 11px 2px orange,
+    -13px -14px 2px green,
+    16px -17px 2px red;
+}

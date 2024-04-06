@@ -1,0 +1,13 @@
+4. Für welchen CSS Einsatz sollte man welche Variante verwenden?
+Schreiben Sie zur jeder Variante (inline, eingebettet, verlinkt) einen Satz.
+
+inline:
+für sehr spezifische und seltene Fälle wo man
+ein konkretes universelles Style braucht
+
+eingebettet:
+um Code übersichtlicher zu machen
+
+verlinkt:
+für größere CSS Dateien mit vielen Regeln,
+die oft im Projekt benutzen werden

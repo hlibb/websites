@@ -1,0 +1,11 @@
+#nice-class {
+    color: #5bb4ff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#unreadable {
+    color: greenyellow;
+    font-family: "Arial Narrow";
+    font-style: italic;
+}
